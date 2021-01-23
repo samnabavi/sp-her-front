@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const TASKS_REST_API_URL = 'http://localhost:8080/api/tasks';
-
+//const TASKS_REST_API_URL = 'http://localhost:8080/api/tasks';
+const TASKS_REST_API_URL = 'https://springboot-sam.herokuapp.com/api/tasks'
 class TaskService {
     getTasks() {
         return axios.get(TASKS_REST_API_URL);
