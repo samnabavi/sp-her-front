@@ -44,6 +44,7 @@ class ListTaskComponent extends React.Component {
                 <div className = "row">
                     
                     <a target="_blank" href="http://localhost:8080/home">Logout</a>
+                    <a target="_blank" href="https://springboot-sam.herokuapp.com">Logout From Heroku</a>
 
                  </div>
                 <div className = "row">
